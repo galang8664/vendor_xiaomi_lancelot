@@ -6,17 +6,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "Flipendo",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/Flipendo/Flipendo.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "WAPPushManager",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/WAPPushManager/WAPPushManager.apk",
@@ -64,90 +53,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "GameSpace",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/GameSpace/GameSpace.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "GoogleFeedback",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "GoogleServicesFramework",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "PixelSetupWizard",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "QuickAccessWallet",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/QuickAccessWallet/QuickAccessWallet.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "RepainterServicePriv",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/RepainterServicePriv/RepainterServicePriv.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "Settings",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/Settings/Settings.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "SimpleDeviceConfig",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/SimpleDeviceConfig/SimpleDeviceConfig.apk",
@@ -160,45 +65,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "StorageManager",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/StorageManager/StorageManager.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "SystemUI",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/SystemUI/SystemUI.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "ThemePicker",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/ThemePicker/ThemePicker.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "Updater",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/Updater/Updater.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
