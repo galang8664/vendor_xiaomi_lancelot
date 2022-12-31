@@ -6,17 +6,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "Flipendo",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/Flipendo/Flipendo.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "WAPPushManager",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/WAPPushManager/WAPPushManager.apk",
